@@ -12,8 +12,7 @@ public class Solution {
             while (j < 20) {
                 if (i == 0 || i == 9) {
                     System.out.print("Б");
-                }
-                else if (j == 0 || j == 19) {
+                } else if (j == 0 || j == 19) {
                     System.out.print("Б");
                 } else {
                     System.out.print(" ");
@@ -23,7 +22,6 @@ public class Solution {
             System.out.println();
             i++;
         }
-
 
     }
 }
