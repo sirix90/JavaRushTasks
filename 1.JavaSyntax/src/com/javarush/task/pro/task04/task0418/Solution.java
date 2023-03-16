@@ -11,13 +11,10 @@ public class Solution {
         double glass = 0.5;
         Scanner scanner = new Scanner(System.in);
         boolean i = scanner.nextBoolean();
-        if (i == true) {
-            int opt = (int) Math.ceil(glass);
-            System.out.println(opt);
-        } else {
-            int pes = (int) Math.floor(glass);
-            System.out.println(pes);
-        }
+        int pes = (int) Math.floor(glass);
+        int opt = (int) Math.ceil(glass);
+        int who = i ? opt : pes;
+        System.out.println(who);
 
     }
 }
